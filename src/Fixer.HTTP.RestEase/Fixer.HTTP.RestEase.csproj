@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestEase" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Fixer.Discovery.Consul\src\Fixer.Discovery.Consul\Fixer.Discovery.Consul.csproj" />
+    <ProjectReference Include="..\..\..\Fixer.LoadBalancing.Fabio\src\Fixer.LoadBalancing.Fabio\Fixer.LoadBalancing.Fabio.csproj" />
+    <ProjectReference Include="..\..\..\Fixer\src\Fixer\Fixer.csproj" />
+  </ItemGroup>
+
+</Project>
